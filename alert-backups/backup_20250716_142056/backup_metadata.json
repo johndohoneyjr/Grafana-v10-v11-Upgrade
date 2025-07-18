@@ -1,0 +1,11 @@
+{
+    "backup_timestamp": "2025-07-16T21:22:00Z",
+    "backup_type": "full",
+    "grafana_url": "https://graftest-grf-hkjfn2-aqh6cyh6eagehze3.eus2.grafana.azure.com",
+    "prometheus_url": "https://graftest-amw-hkjfn2bs5frie-d4bnggepc6f4hyf6.eastus2.prometheus.monitor.azure.com",
+    "azure_subscription": "f74853cf-a2a4-43b0-953d-651aaf3bd314",
+    "azure_resource_group": "rg-grafana-test-v2",
+    "azure_grafana_instance": "graftest-grf-hkjfn2",
+    "backup_dir": "./alert-backups/backup_20250716_142056",
+    "script_version": "1.0.0"
+}

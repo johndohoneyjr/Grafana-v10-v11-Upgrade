@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namePrefix": {
+      "value": "graftest"
+    },
+    "location": {
+      "value": "East US 2"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "sshPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFBj52N5jE3kJ/Fv4zBCamc+F6riAkov4CAytc8lES0oy0Y4zMIJPqoipekHvI1HFz2wJRxhdIHjhNKK6YYdaDnlhnH3FERDD1YBoASOGmQwbBbpM+0vWTgPBre7qSkGpWKXoUosA9stMWAP+C1j6L6kH7cORgVBA7XC+EgrzIF9jFPieCov3beGD5tJHeFWWeUq9rLdRiT8n6MPQiUWCwJ58DGo+ZpQYjPO/OWCKcIkdNF0B3tO3WzCtWRHQKPuMykCRP0Uk75OXGpLREu+QLPMzRFNxBILaDxFgOLhunU2ImxsHcYU0jDJ6jdi9ibQtpAn+hxT3hqFJ1FnrncEGl John@johnsimac"
+    },
+    "dnsPrefix": {
+      "value": "graftest-aks"
+    },      "kubernetesVersion": {
+        "value": "1.32.0"
+      },
+    "nodeCount": {
+      "value": 2
+    },
+    "nodeVmSize": {
+      "value": "Standard_DS2_v2"
+    }
+  }
+}

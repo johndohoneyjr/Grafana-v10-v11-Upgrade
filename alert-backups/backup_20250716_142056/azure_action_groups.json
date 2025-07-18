@@ -1,0 +1,66 @@
+[
+  {
+    "armRoleReceivers": [
+      {
+        "name": "EmailRBACOwner",
+        "roleId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+        "useCommonAlertSchema": true
+      }
+    ],
+    "automationRunbookReceivers": [],
+    "azureAppPushReceivers": [],
+    "azureFunctionReceivers": [],
+    "emailReceivers": [
+      {
+        "emailAddress": "johndohoney@microsoft.com",
+        "name": "EmailOwner",
+        "status": "Enabled",
+        "useCommonAlertSchema": true
+      }
+    ],
+    "enabled": true,
+    "eventHubReceivers": [],
+    "groupShortName": "AGOwner",
+    "id": "/subscriptions/F74853CF-A2A4-43B0-953D-651AAF3BD314/resourceGroups/Default-ActivityLogAlerts/providers/microsoft.insights/actionGroups/AGOwner",
+    "itsmReceivers": [],
+    "location": "Global",
+    "logicAppReceivers": [],
+    "name": "AGOwner",
+    "resourceGroup": "Default-ActivityLogAlerts",
+    "smsReceivers": [],
+    "type": "Microsoft.Insights/ActionGroups",
+    "voiceReceivers": [],
+    "webhookReceivers": []
+  },
+  {
+    "armRoleReceivers": [
+      {
+        "name": "Monitoring Contributor",
+        "roleId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa",
+        "useCommonAlertSchema": true
+      },
+      {
+        "name": "Monitoring Reader",
+        "roleId": "43d0d8ad-25c7-4714-9337-8ba259a9fe05",
+        "useCommonAlertSchema": true
+      }
+    ],
+    "automationRunbookReceivers": [],
+    "azureAppPushReceivers": [],
+    "azureFunctionReceivers": [],
+    "emailReceivers": [],
+    "enabled": true,
+    "eventHubReceivers": [],
+    "groupShortName": "SmartDetect",
+    "id": "/subscriptions/F74853CF-A2A4-43B0-953D-651AAF3BD314/resourceGroups/rg-my-eventgrid-functions/providers/microsoft.insights/actionGroups/Application Insights Smart Detection",
+    "itsmReceivers": [],
+    "location": "Global",
+    "logicAppReceivers": [],
+    "name": "Application Insights Smart Detection",
+    "resourceGroup": "rg-my-eventgrid-functions",
+    "smsReceivers": [],
+    "type": "Microsoft.Insights/ActionGroups",
+    "voiceReceivers": [],
+    "webhookReceivers": []
+  }
+]

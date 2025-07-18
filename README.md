@@ -4,6 +4,8 @@
 
 This guide provides a comprehensive approach to upgrading Grafana from version 10 to version 11, including automation strategies, potential pitfalls, and client consultation best practices.
 
+### Note: This has been developed, and not tested as of yet 7/16/2025
+
 ## Table of Contents
 
 1. [Pre-Upgrade Assessment](#pre-upgrade-assessment)

@@ -1,0 +1,26 @@
+[2025-07-16 14:20:56] Starting comprehensive alert backup to: ./alert-backups/backup_20250716_142056
+[2025-07-16 14:20:56] =========================================
+[2025-07-16 14:20:56] Grafana Alert Backup Script Starting
+[2025-07-16 14:20:56] =========================================
+[2025-07-16 14:20:56] Backing up Grafana-managed alerts...
+[2025-07-16 14:20:56] Grafana alerts backed up successfully
+[2025-07-16 14:20:56] Grafana alert groups found: 
+[2025-07-16 14:20:57] Notification policies backed up successfully
+[2025-07-16 14:20:57] Contact points backed up successfully
+[2025-07-16 14:20:57] Mute timings backed up successfully
+[2025-07-16 14:20:57] Alert instances backed up successfully
+[2025-07-16 14:20:57] Backing up Prometheus rules...
+[2025-07-16 14:20:58] Prometheus rules backed up successfully
+[2025-07-16 14:20:58] Prometheus rule groups found: 0
+[2025-07-16 14:20:58] Prometheus configuration backed up successfully
+[2025-07-16 14:20:58] Backing up Azure Managed Grafana instance...
+[2025-07-16 14:21:32] WARNING: Azure CLI backup failed, trying alternative methods
+[2025-07-16 14:21:37] Backing up Azure Monitor alert rules...
+[2025-07-16 14:21:40] Azure Monitor metric alerts backed up: 4 rules
+[2025-07-16 14:21:58] WARNING: Failed to backup Azure Monitor log alerts
+[2025-07-16 14:22:00] Azure Monitor action groups backed up: 2 groups
+[2025-07-16 14:22:00] Creating backup metadata...
+[2025-07-16 14:22:00] Verifying backup integrity...
+[2025-07-16 14:22:01] WARNING: Grafana alerts backup file is very small (       0 bytes)
+[2025-07-16 14:22:01] Backup verification found 1 issues
+[2025-07-16 14:22:01] ERROR: Backup verification failed

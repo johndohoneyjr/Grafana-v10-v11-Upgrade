@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-07-16T21:37:02Z",
+  "backup_type": "simplified_amg_backup",
+  "resource_group": "rg-grafana-test-v2",
+  "grafana_instance": "graftest-grf-hkjfn2",
+  "azure_subscription": "f74853cf-a2a4-43b0-953d-651aaf3bd314",
+  "files_created": [
+    "amg_dashboards.json",
+    "amg_folders.json",
+    "amg_instance_details.json",
+    "azure_action_groups.json",
+    "azure_metric_alerts.json",
+    "backup_metadata.json",
+    "grafana_alerts.json",
+    "grafana_health.json",
+    "k8s_alertmanager_config.json",
+    "k8s_prometheus_rules.json"
+  ]
+}

@@ -1,0 +1,38 @@
+[2025-07-16 14:36:50] Starting simplified alert backup to: ./alert-backups/backup_20250716_143650
+[2025-07-16 14:36:50] Setting Azure subscription...
+[2025-07-16 14:36:50] =========================================
+[2025-07-16 14:36:50] Simplified Grafana Alert Backup Starting
+[2025-07-16 14:36:50] =========================================
+[2025-07-16 14:36:50] Backing up Azure Monitor alert rules...
+[2025-07-16 14:36:53] Azure Monitor metric alerts backed up: 4 rules
+[2025-07-16 14:36:55] Azure Monitor action groups backed up: 0 groups
+[2025-07-16 14:36:55] Backing up Azure Managed Grafana instance...
+[2025-07-16 14:36:56] AMG instance details backed up successfully
+[2025-07-16 14:36:57] AMG dashboards listed: 38 dashboards
+[2025-07-16 14:36:59] AMG folders listed: 3 folders
+[2025-07-16 14:36:59] Testing Grafana API access...
+[2025-07-16 14:37:00] Grafana endpoint: https://graftest-grf-hkjfn2-aqh6cyh6eagehze3.eus2.grafana.azure.com
+[2025-07-16 14:37:01] Successfully obtained Grafana access token
+[2025-07-16 14:37:01] Grafana API health check successful
+[2025-07-16 14:37:01] Grafana alert rules backed up successfully
+[2025-07-16 14:37:01] Checking for Kubernetes-based alert configurations...
+[2025-07-16 14:37:02] INFO: No Kubernetes PrometheusRules found or no access
+[2025-07-16 14:37:02] INFO: No AlertManager config found in monitoring namespace
+[2025-07-16 14:37:02] Creating backup metadata...
+[2025-07-16 14:37:02] Verifying backup integrity...
+[2025-07-16 14:37:02] Valid JSON: amg_dashboards.json (   21655 bytes)
+[2025-07-16 14:37:02] Valid JSON: amg_folders.json (     271 bytes)
+[2025-07-16 14:37:02] Valid JSON: amg_instance_details.json (    1734 bytes)
+[2025-07-16 14:37:02] Valid JSON: azure_action_groups.json (       3 bytes)
+[2025-07-16 14:37:02] Valid JSON: azure_metric_alerts.json (    4357 bytes)
+[2025-07-16 14:37:02] Valid JSON: backup_metadata.json (     559 bytes)
+[2025-07-16 14:37:02] Valid JSON: grafana_alerts.json (       0 bytes)
+[2025-07-16 14:37:02] Valid JSON: grafana_health.json (       0 bytes)
+[2025-07-16 14:37:03] Valid JSON: k8s_alertmanager_config.json (       0 bytes)
+[2025-07-16 14:37:03] Valid JSON: k8s_prometheus_rules.json (       0 bytes)
+[2025-07-16 14:37:03] Backup verification: 10 files created, 0 errors
+[2025-07-16 14:37:03] Backup verification completed successfully
+[2025-07-16 14:37:03] =========================================
+[2025-07-16 14:37:03] Backup completed successfully!
+[2025-07-16 14:37:03] Backup location: ./alert-backups/backup_20250716_143650
+[2025-07-16 14:37:03] =========================================

@@ -1,0 +1,17 @@
+# azure.yaml file for AZD deployment
+name: grafana-test-environment
+metadata:
+  template: grafana-test-environment@0.0.1-beta
+
+# Provision Azure resources using Bicep
+infra:
+  provider: bicep
+  path: ./infra
+  
+# Hooks for additional setup after provisioning
+hooks:
+  postprovision:
+    shell: sh
+    run: chmod +x ./scripts/setup-alerts.sh && ./scripts/setup-alerts.sh
+    continueOnError: false
+    interactive: false

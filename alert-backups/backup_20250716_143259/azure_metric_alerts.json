@@ -1,0 +1,118 @@
+[
+  {
+    "actions": [],
+    "criteria": {
+      "allOf": [
+        {
+          "criterionType": "StaticThresholdCriterion",
+          "metricName": "node_cpu_usage_percentage",
+          "name": "cond0",
+          "operator": "GreaterThan",
+          "threshold": 80.0,
+          "timeAggregation": "Average"
+        }
+      ],
+      "odata.type": "Microsoft.Azure.Monitor.SingleResourceMultipleMetricCriteria"
+    },
+    "description": "Alert when AKS node CPU usage is high",
+    "enabled": true,
+    "evaluationFrequency": "PT1M",
+    "id": "/subscriptions/f74853cf-a2a4-43b0-953d-651aaf3bd314/resourceGroups/rg-grafana-test-v2/providers/Microsoft.Insights/metricAlerts/AKS-Node-CPU-High",
+    "location": "global",
+    "name": "AKS-Node-CPU-High",
+    "resourceGroup": "rg-grafana-test-v2",
+    "scopes": [
+      "/subscriptions/f74853cf-a2a4-43b0-953d-651aaf3bd314/resourceGroups/rg-grafana-test-v2/providers/Microsoft.ContainerService/managedClusters/graftest-aks-hkjfn2bs5frie"
+    ],
+    "severity": 2,
+    "type": "Microsoft.Insights/metricAlerts",
+    "windowSize": "PT5M"
+  },
+  {
+    "actions": [],
+    "criteria": {
+      "allOf": [
+        {
+          "criterionType": "StaticThresholdCriterion",
+          "metricName": "node_memory_working_set_percentage",
+          "name": "cond0",
+          "operator": "GreaterThan",
+          "threshold": 85.0,
+          "timeAggregation": "Average"
+        }
+      ],
+      "odata.type": "Microsoft.Azure.Monitor.SingleResourceMultipleMetricCriteria"
+    },
+    "description": "Alert when AKS node memory usage is high",
+    "enabled": true,
+    "evaluationFrequency": "PT1M",
+    "id": "/subscriptions/f74853cf-a2a4-43b0-953d-651aaf3bd314/resourceGroups/rg-grafana-test-v2/providers/Microsoft.Insights/metricAlerts/AKS-Node-Memory-High",
+    "location": "global",
+    "name": "AKS-Node-Memory-High",
+    "resourceGroup": "rg-grafana-test-v2",
+    "scopes": [
+      "/subscriptions/f74853cf-a2a4-43b0-953d-651aaf3bd314/resourceGroups/rg-grafana-test-v2/providers/Microsoft.ContainerService/managedClusters/graftest-aks-hkjfn2bs5frie"
+    ],
+    "severity": 2,
+    "type": "Microsoft.Insights/metricAlerts",
+    "windowSize": "PT5M"
+  },
+  {
+    "actions": [],
+    "criteria": {
+      "allOf": [
+        {
+          "criterionType": "StaticThresholdCriterion",
+          "metricName": "kube_pod_status_ready",
+          "name": "cond0",
+          "operator": "LessThan",
+          "threshold": 1.0,
+          "timeAggregation": "Average"
+        }
+      ],
+      "odata.type": "Microsoft.Azure.Monitor.SingleResourceMultipleMetricCriteria"
+    },
+    "description": "Alert when pods are not ready",
+    "enabled": true,
+    "evaluationFrequency": "PT1M",
+    "id": "/subscriptions/f74853cf-a2a4-43b0-953d-651aaf3bd314/resourceGroups/rg-grafana-test-v2/providers/Microsoft.Insights/metricAlerts/AKS-Pod-Not-Ready",
+    "location": "global",
+    "name": "AKS-Pod-Not-Ready",
+    "resourceGroup": "rg-grafana-test-v2",
+    "scopes": [
+      "/subscriptions/f74853cf-a2a4-43b0-953d-651aaf3bd314/resourceGroups/rg-grafana-test-v2/providers/Microsoft.ContainerService/managedClusters/graftest-aks-hkjfn2bs5frie"
+    ],
+    "severity": 1,
+    "type": "Microsoft.Insights/metricAlerts",
+    "windowSize": "PT5M"
+  },
+  {
+    "actions": [],
+    "criteria": {
+      "allOf": [
+        {
+          "criterionType": "StaticThresholdCriterion",
+          "metricName": "node_disk_usage_percentage",
+          "name": "cond0",
+          "operator": "GreaterThan",
+          "threshold": 90.0,
+          "timeAggregation": "Average"
+        }
+      ],
+      "odata.type": "Microsoft.Azure.Monitor.SingleResourceMultipleMetricCriteria"
+    },
+    "description": "Alert when AKS node disk usage is high",
+    "enabled": true,
+    "evaluationFrequency": "PT1M",
+    "id": "/subscriptions/f74853cf-a2a4-43b0-953d-651aaf3bd314/resourceGroups/rg-grafana-test-v2/providers/Microsoft.Insights/metricAlerts/AKS-Node-Disk-High",
+    "location": "global",
+    "name": "AKS-Node-Disk-High",
+    "resourceGroup": "rg-grafana-test-v2",
+    "scopes": [
+      "/subscriptions/f74853cf-a2a4-43b0-953d-651aaf3bd314/resourceGroups/rg-grafana-test-v2/providers/Microsoft.ContainerService/managedClusters/graftest-aks-hkjfn2bs5frie"
+    ],
+    "severity": 2,
+    "type": "Microsoft.Insights/metricAlerts",
+    "windowSize": "PT5M"
+  }
+]
